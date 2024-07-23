@@ -1,1 +1,1 @@
-# footer-tuentrada
+# Diseño del footer de TuEntrada
