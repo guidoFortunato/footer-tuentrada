@@ -4,7 +4,7 @@ const socialMedia = document.getElementById("socialMedia");
 const year = document.getElementById("year");
 let cont = 0;
 
-async function fetchData(url = `https://www.tuentrada.com/experiencia/footer/dinamico/dataFooter.json`) {
+async function fetchData(url = `https://www.tuentrada.com/experiencia/footer/dinamico/dataFooter.json?v=${new Date().getTime()}`) {
   try {
     const res = await fetch(url, {
       // cache: 'force-cache',
